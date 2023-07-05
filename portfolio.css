@@ -1,0 +1,338 @@
+ 
+   *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; }
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(171, 103, 103);
+    position:sticky;
+    top: 0;
+}.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}.navbar ul li{
+font-family: sans-serif;
+font-size: 1.1rem;
+font-weight: bold;
+
+}.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}.navbar ul li a:hover{
+background-color: white;
+color: rgb(205, 32, 95);
+box-shadow: 0 0 20px white;
+
+}#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(41, 13, 13);
+    height: 840px;
+    justify-content: center;
+    align-items: left;
+    color: white;
+
+}     
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(  ) no-repeat center center/cover;
+
+    height:900 px;
+    width:100%;
+    z-index: -1;
+   opacity: .8
+    
+}.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    margin-left: 7%;
+    margin-top: 6%;
+    font-family: sans-serif;
+}.headings{
+    font-size: 65px;
+    color: rgb(206, 54, 54);
+
+}.heading1{
+    font-size: 35px;
+    color: rgb(204, 13, 13);
+}.heading4{
+    font-size: 65px;
+    color: rgb(48, 5, 5);
+    text-align: center;
+}
+.main h3{
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(248, 247, 247);
+}.heading5 {
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}.headings{
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}.heading{
+    font-size: 55px;
+    color: rgb(210, 127, 127);
+    text-align: center; 
+}.box:hover{
+   background-position: left bottom;
+   color: white;
+   border: none;
+   box-shadow: 0 0 20px rgb(255, 45, 45);
+  }home.main h1 h3{
+    color: white;
+  }  
+
+.box img{
+    background-color: white;
+}
+.heading7{
+    color: white;
+}.heading7 span{
+    color: red;
+}.manual span{
+color: red;
+}.manual2 span{
+    color: red;
+}.main{
+    margin-left: 7%;
+    margin-top: 6%;
+    font-family: sans-serif;
+    text-align: left;
+}.manual2{
+    font-size: 65px;
+ 
+}.manual h3{
+    font-size: 18px;
+    line-height: 24px;
+    
+}.main a{
+    text-decoration: none;
+background-color: red;
+color: white;
+border-radius: 10px;
+margin: 26px 0;
+padding: 10px 18px;
+display: inline-block;
+transition: .4s ease;
+}.main a:hover{
+    background-color: black;
+
+}.image{
+     position: absolute;
+    width: 35%;
+    height: 70%;
+    left: 100px;
+    bottom: 0;
+    
+}
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+ transition: left 2s ease;
+ 
+}
+.image :hover.me{
+
+left: 55%;
+}
+
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+
+}.btn:hover{
+    cursor: pointer;
+    background-color:white;
+    color: red;
+    box-shadow: 0 0 5px white,0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: rgb(70, 70, 70);}
+    
+    #about h1{
+color: black;
+text-shadow: 0 0 5px rgb(34, 31, 31);
+font-family: sans-serif;
+}   
+#about span{
+ color: red;
+}
+#pic{
+    display: flex;
+}#pic img{
+    width: 775px;
+    height: 600px;
+   bottom: 0;
+}   
+#intro{
+   display: flex;
+   flex-direction: column;
+   text-align: justify;
+   padding: 80px;
+   font-family: sans-serif;
+   margin-bottom: 0;  
+}#intro h2{
+font-size: 2rem;
+margin-bottom: 20px;
+color: rgb(182, 174, 174);
+text-align: start;
+}
+#intro span{
+    color: brown;
+}
+
+#intro p{
+color:rgb(214, 202, 202);
+font-family: sans-serif;
+
+}#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+ color: white;
+ align-items: center;
+ padding: 20px; }  
+    #portfolio span{
+        color: red;
+    }
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}.gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+}#service{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}#service span{
+    color: brown;
+
+    }
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(255, 140, 0) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(235, 99, 2);
+}#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: black;
+  } #contact h1{
+color: white;
+
+}.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}.input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}#msg{
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}#send{
+    padding: 10px;
+    width: 10%;
+    margin: 40px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+
+}#send:hover{
+cursor: pointer;
+box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white ;
+background: white;
+color: red;
+}.navbar:hover .logo{
+    left: 55%;  
+}
+.icons a{
+    text-decoration: none;
+    color: honeydew;
+    
+}.icons ion-icon{
+    margin-left: 7%;
+    margin-right: -60px;
+  padding: 0px 30px;
+    color: aliceblue;
+    font-size: 30px;
+    transition: 1s ease;
+}.icons ion-icon:hover.face{
+    color: rgb(21, 90, 218);
+}.icons ion-icon:hover.inst{
+    color: rgb(181, 27, 27);
+}.icons ion-icon:hover.twit{
+    color: rgb(8, 197, 218);
+
+}.heading{
+    color: white;
+}
